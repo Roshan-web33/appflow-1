@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body class="bg-black  ju text-white">
-    <header class="flex fixed w-full  p-3 z-50  justify-center ">
-        <nav class="flex p-2 bg-white/50 rounded-2xl backdrop-blur-2xl w-[50%] justify-between">
-            <h1>⚡️<span></span>FlowApp</h1>
 
-            <ul class="flex gap-10">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Price</a></li>
-                <li><a href="#">Review</a></li>
-                <button class="bg-black text-white w-20 rounded-3xl">Get Start</button>
+     <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+</head>
+<body class="bg-black   text-white">
+    <header class="flex fixed w-full  p-3 z-50  justify-center ">
+        <nav class="flex p-3 border border-gray-700 bg-white/10 rounded-2xl backdrop-blur-2xl w-[90%] items-center justify-between">
+            <h1 class="text-xl flex gap-2 justify-center font-bold items-center"><span class="bg-blue-700 flex w-10 justify-center items-center h-10 rounded-xl text-2xl">⚡️</span> FlowApp</h1>
+
+            <ul class="flex justify-center items-center gap-10">
+                <li class="hover:bg-gray-500 p-2 rounded-xl"><a href="#">Home</a></li>
+                <li class="hover:bg-gray-500 p-2 rounded-xl"><a href="#">Price</a></li>
+                <li class="hover:bg-gray-500 p-2 rounded-xl"><a href="#">Review</a></li>
+                <button class="bg-black text-white p-3 rounded-xl shadow-sm hover:shadow-2xl shadow-blue-500">Get Start</button>
             </ul> 
 
         </nav>
@@ -113,7 +118,7 @@
                              
                         </div>
                     </div>
-                <div class="w-[25%] h-[20%] absolute p-5 shadow-2xl hover:shadow-sky-50 hover:scale-105  hover:-translate-y-4 transition-all duration-300 ease-in-out  gap-3 rounded-3xl flex flex-col left-50 top-110   bg-amber-800">
+                <div class="w-[25%] h-[20%] absolute p-5 shadow-2xl hover:shadow-sky-50 hover:scale-105  hover:-translate-y-4 transition-all duration-300 ease-in-out  gap-3 rounded-3xl flex flex-col left-50 top-110  bg-gray-800  ">
                     <span class="bg-gray-600 p-2 w-12 text-3xl rounded-2xl">⚡️</span>
                     <h1 class="font-bold text-2xl">Ligth Fast</h1>
                     <p class="text-[90%] text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -198,8 +203,12 @@
 </section>
 
 
-<section class="mt-30">
-    <div class="h-[50vh] justify-center flex flex-col bg-gradient-to-r from-blue-500 to-pink-500 ">
+<section class="mt-30 overflow-hidden relative">
+    <div class="w-[100%] z-10 absolute opacity-10 h-[100%]">
+            <img  class="w-full h-full object-cover " src="https://media.istockphoto.com/id/161935733/photo/graph-paper-background.jpg?s=2048x2048&w=is&k=20&c=rJu1-X6do7lpVYLCXpwievUE-jTlZMTwlaJc3P0PNos=" alt="">
+        </div>
+    <div class="h-[50vh] justify-center flex flex-col relative bg-gradient-to-r from-blue-500 to-pink-500 ">
+        
         <p class="text-center text-[400%] font-bold leading-[4rem]">Ready to Transform</p>
         <p class="text-center text-[400%] font-bold leading-[4rem]">your workflow?</p>
         <p class="text-center text-gray-300 mt-5">Join 2,000+ teams already using FlowApp to bulid better products faster.  Lorem ipsum dolor sit  </p>
@@ -218,13 +227,18 @@
 
 
 <section>
-   <div  class="h-[50vh] p-10 bg-black">
-    <div class="flex gap-50">
+   <div  class="h-[50vh] relative p-10 bg-black">
+    <div class="flex ml-30 gap-50">
           <div class="flex w-[30%] flex-col gap-5">
-        <div class="flex gap-2 "><img class=" w-[8%]  rounded-[.5rem] bg-gradient-to-r from-cyan-500 to-blue-500   inline-block" src="assetes/logo-alipay.svg" alt="">
-            <p class="text-[120%]">FlowApp</p>
+        <div class="flex gap-2  items-center "><span class=" w-10 justify-center items-center h-10  flex    rounded-[.5rem]  bg-gradient-to-r from-cyan-500 to-blue-500 text-2xl  " >⚡️</span>
+            <p class="text-[120%] font-bold ">FlowApp</p>
       </div>
-      <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur labore delectus saepe dignissimos ducimus illo quibusdam ipsam eos provident. Aut, reiciendis. Eaque delectus enim blanditiis deserunt maiores laudantium, qui nesciunt0.</p>
+      <p class="text-gray-500">Aut, reiciendis. Eaque delectus enim blanditiis deserunt maiores laudantium, qui nesciunt0.</p>
+      <div class="flex gap-5">
+        <div class="bg-gray-600 text-xl  hover:bg-gray-800  w-10 justify-center items-center h-10  flex   rounded-xl" ><i class="ri-play-large-fill"></i></div>
+        <div  class="bg-gray-600 text-xl hover:bg-gray-800   w-10 justify-center items-center h-10  flex   rounded-xl" ><i class="ri-linkedin-fill"></i></div>
+        <div  class="bg-gray-600 text-xl hover:bg-gray-800   w-10 justify-center items-center h-10  flex   rounded-xl" ><i class="ri-instagram-fill"></i></div>
+      </div>
       <div class="flex gap-5">
         <img class="bg-gray-100 w-[8%] transition overflow-hidden delay-150 duration-300 ease-in-out rounded-[.5rem] hover:bg-white hover:scale-120 " src="assetes/logo-github.svg" alt="">
         <img class="bg-gray-100 w-[8%] transition overflow-hidden delay-150 duration-300 ease-in-out rounded-[.5rem] hover:bg-white hover:scale-120 " src="assetes/logo-google.svg" alt="">
@@ -260,7 +274,11 @@
       </div>
     </div>
 
-    <div class="flex mt-30  justify-center">
+
+
+     <h1 class="text-xl flex gap-2 absolute bottom-20 left-45  justify-center font-bold items-center"><span class="bg-blue-700  w-10 justify-center items-center h-10  flex   rounded-xl text-2xl">⚡️</span> FlowApp</h1>
+     <p class="text-[90%]  absolute bottom-20 right-80 text-gray-500">@2026 FlowApp. Creadit </p>
+    <!-- <div class="flex mt-30  items-center justify-center">
             <div class="flex flex-cols w-[80%] p-3 z-10 bg-white/15 backdrop-blur-lg rounded-[.5rem]   justify-between">
                 <div class="inline-block"><img class=" w-[9%]  rounded-[.5rem] bg-gradient-to-r from-cyan-500 to-blue-500   inline-block" src="assetes/logo-alipay.svg" alt="">
                      <p class="inline-block text-[130%] font-bold ml-2 mt-1">FlowApp</p>
@@ -270,7 +288,7 @@
                 </div>
                
             </div>
-        </div>
+        </div> -->
 
   
 
