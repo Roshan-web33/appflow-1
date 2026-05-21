@@ -1,19 +1,24 @@
-# FlowApp Landing Page
+## FLowapp lading page
 
-## Features Implemented
+## sections
+   Hero page
+   Feature page
+   Feed back page 
+   Fotter whit extra information 
+   
 
-- Sticky Navbar
-- Hero Section
-- CTA Buttons
-- Dashboard Preview
-- Floating Cards
-- Chat Widget
+## hoew to run 
+    npm run dev
 
-## Technologies Used
+## Featurs
+    sticy nav bar and tranparent glass effect
+    animation on cards
+    tailwind css animations (bounsed)
+    Box shadow effects
 
-- HTML5
-- Tailwind CSS
+## tailwind css cdn
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
 
-## How to Run
-
-Open index.html in browser.
